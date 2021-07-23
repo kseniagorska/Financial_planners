@@ -46,7 +46,7 @@ Import required libraries and dependencies:
 
 
 
-
+---
 In  order to run the application you need to set up an Alpaca Markets account and obtain your perosnal API keys. You use these unique identifiers to establish an authenticated, secure connection to an API. 
 For the security reasons you should store your unique API keys in a hidden file called .env
 This file protects the content of the file by hiding it in the structure of the project. To display hidden files in Jupyterlab run the following command in your terminal:
@@ -54,9 +54,12 @@ This file protects the content of the file by hiding it in the structure of the 
 ``` python
 jupyter lab --ContentsManager.allow_hidden=True
 ```
+
+
 The project accesses the Alpaca API keys from the environment variables, and stores it in a Python variables named alpaca_api_key and alpaca_secret_api_key.
 
 ![alpaca_keys](images/alpaca_keys.png)
+
 
 ## Usage
 
